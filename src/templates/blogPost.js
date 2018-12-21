@@ -9,6 +9,7 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
+
   return (
     <Layout>
       <SEO title={frontmatter.title} description={frontmatter.excerpt} />
@@ -37,6 +38,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        excerpt
       }
     }
   }
