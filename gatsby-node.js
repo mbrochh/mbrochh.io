@@ -43,6 +43,7 @@ exports.createPages = ({ actions, graphql }) => {
   })
 }
 
+// it seems this hack is needed to get gatsby-plugin-feed to work
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
