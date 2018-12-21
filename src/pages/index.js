@@ -9,8 +9,8 @@ export default function IndexPage({ data }) {
   return (
     <Layout>
       <SEO
-        title="Welcome"
-        description="Personal blog of Martin Brochhaus (@mbrochh). I write about Python and React."
+        title="Personal blog by Martin Brochhaus"
+        description="Personal blog by Martin Brochhaus (@mbrochh). I write about Python and React."
       />
       {posts
         .filter(post => post.node.frontmatter.title.length > 0)
