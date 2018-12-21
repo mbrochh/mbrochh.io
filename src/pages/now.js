@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 const NowPage = () => (
   <Layout>
     <SEO title="What I'm doing now" />
-    <h1>What I'm doint now</h1>
+    <h1>What I'm doing now</h1>
     <p>
       (This is a <a href="https://nownownow.com/about">now page</a>, and if you
       have your own site,{' '}
