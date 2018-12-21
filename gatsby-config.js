@@ -9,6 +9,19 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-42580283-3',
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        exclude: ['/preview/**', '/do-not-track/me/too/'],
+        // optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        // sampleRate: 5,
+        // siteSpeedSampleRate: 10,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
