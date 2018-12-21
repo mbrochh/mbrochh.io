@@ -13,7 +13,7 @@ const NowPage = () => (
       <OutboundLink href="https://nownownow.com/about">now page</OutboundLink>,
       and if you have your own site,{' '}
       <OutboundLink href="https://nownownow.com/about">
-        you should make one
+        you could make one
       </OutboundLink>
       , too.)
     </p>
