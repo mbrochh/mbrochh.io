@@ -25,8 +25,6 @@ const NowPage = () => (
     </p>
     <p>Next up:</p>
     <ul>
-      <li>Add GA</li>
-      <li>Add typography.js with github theme</li>
       <li>Figure out how to add blog posts via markdown</li>
     </ul>
     <p>
