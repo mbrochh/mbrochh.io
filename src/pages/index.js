@@ -15,7 +15,11 @@ export default function IndexPage(props) {
         title="Personal blog by Martin Brochhaus"
         description="Personal blog by Martin Brochhaus (@mbrochh). I write about Python and React."
       />
-      <div css={{ marginLeft: rhythm(1) }}>
+      <div
+        css={{
+          '@media(min-width: 721px)': { marginLeft: rhythm(1) },
+        }}
+      >
         <Nav />
         <h1 css={{ ...scale(1 / 4) }}>Articles</h1>
         {posts

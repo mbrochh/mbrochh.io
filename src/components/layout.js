@@ -40,6 +40,7 @@ const Layout = props => (
           css={{
             marginBottom: rhythm(8),
             paddingLeft: rhythm(1),
+            paddingRight: rhythm(1),
             '@media(min-width: 721px)': { paddingLeft: rhythm(2) },
           }}
           {...props}
