@@ -2,8 +2,8 @@
 import { jsx } from '@emotion/core'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/layout.js'
+import SEO from '../components/seo.js'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.

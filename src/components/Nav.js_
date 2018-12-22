@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { jsx } from '@emotion/core'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
-import { rhythm } from '../utils/typography'
+import { rhythm } from '../utils/typography.js'
 
 const Nav = props => {
   return (

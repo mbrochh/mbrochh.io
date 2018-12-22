@@ -2,7 +2,7 @@
 import { Link } from 'gatsby'
 import { jsx } from '@emotion/core'
 
-import { rhythm, scale } from '../utils/typography'
+import { rhythm, scale } from '../utils/typography.js'
 
 const Header = props => {
   return (

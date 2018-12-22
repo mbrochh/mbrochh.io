@@ -2,10 +2,10 @@
 import { Link } from 'gatsby'
 import { jsx } from '@emotion/core'
 
-import { rhythm, scale } from '../utils/typography'
-import Layout from '../components/layout'
-import Nav from '../components/nav'
-import SEO from '../components/seo'
+import { rhythm, scale } from '../utils/typography.js'
+import Layout from '../components/layout.js'
+import Nav from '../components/nav.js'
+import SEO from '../components/seo.js'
 
 export default function IndexPage(props) {
   const { edges: posts } = props.data.allMarkdownRemark

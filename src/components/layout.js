@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { Global, jsx } from '@emotion/core'
 
-import { rhythm } from '../utils/typography'
-import Centered from './centered'
-import Header from './header'
+import { rhythm } from '../utils/typography.js'
+import Centered from './centered.js'
+import Header from './header.js'
 
 const linkColor = '#1F5B77'
 const headingColor = '#4A4A4A'
