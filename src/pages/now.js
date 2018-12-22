@@ -1,8 +1,8 @@
 import React from 'react'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import SEO from '../components/Seo'
 
 const NowPage = () => (
   <Layout>
@@ -25,10 +25,10 @@ const NowPage = () => (
     </p>
     <p>Next up:</p>
     <ul>
-      <li>Figure out how to add blog posts via markdown</li>
+      <li>Setup Amazon payment links and books page</li>
     </ul>
     <p>
-      <i>Updated December 21st, 2018, from Leverkusen, Germany.</i>
+      <i>Updated December 22st, 2018, from Leverkusen, Germany.</i>
     </p>
   </Layout>
 )

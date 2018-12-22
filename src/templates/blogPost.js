@@ -1,8 +1,9 @@
-import React from 'react'
+/** @jsx jsx */
+import { jsx } from '@emotion/core'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import SEO from '../components/Seo'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -13,11 +14,11 @@ export default function Template({
   return (
     <Layout>
       <SEO title={frontmatter.title} description={frontmatter.excerpt} />
-      <h1>{frontmatter.title}</h1>
+      <h1 css={{ marginBottom: '0px' }}>{frontmatter.title}</h1>
       <p>
         <small>
           <i>
-            {frontmatter.date}, {markdownRemark.timeToRead} min read
+            {frontmatter.date} &raquo; {markdownRemark.timeToRead} min read
           </i>
         </small>
       </p>

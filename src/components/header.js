@@ -1,42 +1,31 @@
+/** @jsx jsx */
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { jsx } from '@emotion/core'
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+import { rhythm, scale } from '../utils/typography'
+
+const Header = props => {
+  return (
+    <header
+      css={{
+        margin: `${rhythm(1.5)} 0`,
       }}
+      {...props}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+      <Link
+        css={{
+          fontFamily: '"Source Sans Pro", sans-serif',
+          fontWeight: '600',
+          textDecoration: 'none',
+          ...scale(1 / 2),
+        }}
+        to="/"
+        alt="Link to Home view"
+      >
+        Martin Brochhaus
+      </Link>
+    </header>
+  )
 }
 
 export default Header

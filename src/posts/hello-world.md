@@ -3,9 +3,10 @@ path: '/hello-world/'
 date: '2018-12-21'
 title: 'Hello World'
 excerpt: 'Just a test post, nothing to see here.'
+type: 'blog'
 ---
 
-This is the mandatory `hello world` post to kick off this new blog. I'm just
+This is the mandatory `hello world post` to kick off this new blog. I'm just
 testing my theme here, there is no real content on this page.
 
 ## This is a headline
