@@ -3,14 +3,14 @@ import { Link } from 'gatsby'
 import { jsx } from '@emotion/core'
 
 import { rhythm, scale } from '../utils/typography'
-import Layout from '../components/Layout'
-import Nav from '../components/Nav'
-import SEO from '../components/Seo'
+import Layout from '../components/layout'
+import Nav from '../components/nav'
+import SEO from '../components/seo'
 
 export default function IndexPage(props) {
   const { edges: posts } = props.data.allMarkdownRemark
   return (
-    <Layout centered={false}>
+    <Layout center={0}>
       <SEO
         title="Personal blog by Martin Brochhaus"
         description="Personal blog by Martin Brochhaus (@mbrochh). I write about Python and React."

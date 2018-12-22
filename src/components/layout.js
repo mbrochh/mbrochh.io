@@ -5,8 +5,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import { Global, jsx } from '@emotion/core'
 
 import { rhythm } from '../utils/typography'
-import Centered from './Centered'
-import Header from './Header'
+import Centered from './centered'
+import Header from './header'
 
 const linkColor = '#1F5B77'
 const headingColor = '#4A4A4A'
@@ -45,8 +45,11 @@ const Layout = props => (
           {...props}
         >
           <Header />
-          {!!props.centered && <Centered>{props.children}</Centered>}
-          {!props.centered && props.children}
+          {props.center === 1 ? (
+            <Centered>{props.children}</Centered>
+          ) : (
+            props.children
+          )}
         </div>
       </React.Fragment>
     )}
@@ -55,11 +58,11 @@ const Layout = props => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  centered: PropTypes.bool,
+  center: PropTypes.number,
 }
 
 Layout.defaultProps = {
-  centered: true,
+  center: 1,
 }
 
 export default Layout
