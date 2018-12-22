@@ -80,6 +80,28 @@ const AboutPage = () => (
       to read and if time allows, I will become a bit more active in the space
       in 2019.
     </p>
+    <h2>Credits</h2>
+    <p>
+      My main inspiration to finally take some time and setup a new blog came
+      from{' '}
+      <OutboundLink href="https://overreacted.io/">
+        Dan Abramov's new blog
+      </OutboundLink>
+      . I learned quite a bit from his repository, especially how to show code
+      snippets in GatsbyJS.
+    </p>
+    <p>
+      The design and structure of this blog is heavily influenced by{' '}
+      <OutboundLink href="">Amjad Masad's blog</OutboundLink>. However, I built
+      it all myself, never looked at his codebase ;)
+    </p>
+    <p>
+      This blog is built with{' '}
+      <OutboundLink href="https://www.gatsbyjs.org/">GatsbyJS</OutboundLink> and
+      hosted on{' '}
+      <OutboundLink href="https://www.netlify.com/">netlify</OutboundLink>,
+      which are both pretty amazing tools.
+    </p>
   </Layout>
 )
 
