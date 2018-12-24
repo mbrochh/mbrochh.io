@@ -2,6 +2,7 @@
 path: '/gatsbyjs-netlify/'
 date: '2018-12-24'
 title: 'How I Built This Blog with GatsbyJS and Netlify'
+description: 'A quick step by step guide on how to setup a GatsbyJS blog on netlify'
 type: 'blog' # <!-- omit in toc -->
 ---
 
