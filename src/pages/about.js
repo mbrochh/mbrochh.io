@@ -77,6 +77,10 @@ const AboutPage = () => (
       to read and if time allows, I will become a bit more active in the space
       in 2019.
     </p>
+    <p>
+      If you would like to send me a tip, here is my BTC address:
+      3Q2WiXSnA8Ba36GbFJZp1YFY4xT7ex9x9K
+    </p>
     <h2>Credits</h2>
     <p>
       My main inspiration to finally take some time and setup a new blog came

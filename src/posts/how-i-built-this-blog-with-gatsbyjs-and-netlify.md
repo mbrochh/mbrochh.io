@@ -512,6 +512,6 @@ Once that change has propagated, you will also be able to activate HTTPs via the
 
 ---
 
-Thank you for reading this post. I hope it proved to be useful for you. If you would like to buy me a Chai tea, you can send me a few satoshis to this BTC address: 3Q6dfwHh594vkNs2HqXk9YsqBSFK4VzuJ5
+Thank you for reading this post. I hope it proved to be useful for you. If you would like to buy me a Chai tea, you can send a few satoshis to my BTC address: 3Q6dfwHh594vkNs2HqXk9YsqBSFK4VzuJ5
 
 If this post motivated you to build your own blog, please feel free to post a link to your blog in the comments!
