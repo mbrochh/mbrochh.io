@@ -1,8 +1,9 @@
 ---
+type: 'blog'
 path: '/hello-world/'
 date: '2018-12-21'
 title: 'Hello World'
-type: 'blog'
+description: 'Just a test post to kick-off this blog.'
 ---
 
 This is the mandatory `hello world post` to kick off this new blog. I'm just
