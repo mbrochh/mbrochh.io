@@ -15,7 +15,7 @@ const AboutPage = () => (
     </p>
     <h2>Work</h2>
     <p>
-      I'm the founder and CEO of{' '}
+      I'm the founder of{' '}
       <OutboundLink href="https://bitlabstudio.com">Bitlab Studio</OutboundLink>
       . We are a small but well established web agency based in Singapore and
       Germany. Our core competence is building web applications and mobile
@@ -31,9 +31,9 @@ const AboutPage = () => (
     <h2>The Artling & Publishizer</h2>
     <p>
       At Bitlab Studio, we love to work with young startups and so it happened
-      that I am also working as the CTO of{' '}
+      that I am working as the CTO of{' '}
       <OutboundLink href="https://theartling.com">The Artling</OutboundLink>{' '}
-      since 2015. In that time, we also released{' '}
+      since 2015. During my time with The Artling, we also released{' '}
       <OutboundLink href="https://luxglove.com">Luxglove</OutboundLink> under
       the umbrella of The Artling and managed to raise{' '}
       <OutboundLink href="https://www.techinasia.com/the-artling-series-a-artshare-acquisition">
@@ -42,12 +42,9 @@ const AboutPage = () => (
       .
     </p>
     <p>
-      Before I joined The Artling, I co-founded{' '}
+      Before I joined The Artling, I wrote the first version of{' '}
       <OutboundLink href="https://publishizer.com">Publishizer</OutboundLink>.
-      While the site has been profitable for years, it has been a long and
-      difficult journey to find a good product-market-fit. Thankfully, our
-      perseverance has paid off. At the end of 2018 we finally hit a sweet spot
-      and are now finalising negotiations with amazing investors.
+      As of today, this is probably one of our longest running web applications.
     </p>
     <h2>PyCon Singapore & Python User Group Singapore</h2>
     <p>
