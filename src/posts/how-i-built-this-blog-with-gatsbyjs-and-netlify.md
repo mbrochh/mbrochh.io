@@ -1,6 +1,6 @@
 ---
 path: '/gatsbyjs-netlify/'
-date: '2018-12-23'
+date: '2018-12-24'
 title: 'How I Built This Blog with GatsbyJS and Netlify'
 type: 'blog' # <!-- omit in toc -->
 ---
