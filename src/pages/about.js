@@ -2,11 +2,13 @@ import React from 'react'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Layout from '../components/layout.js'
+import Nav from '../components/nav.js'
 import SEO from '../components/seo.js'
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About Martin Brochhaus" />
+    <Nav />
     <h1>Welcome to My Personal Blog</h1>
     <p>
       My name is Martin. I have been building web applications since 1998, but

@@ -2,11 +2,13 @@ import React from 'react'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Layout from '../components/layout.js'
+import Nav from '../components/nav.js'
 import SEO from '../components/seo.js'
 
 const NowPage = () => (
   <Layout>
     <SEO title="What I'm doing now" />
+    <Nav />
     <h1>What I'm doing now</h1>
     <p>
       (This is a{' '}
