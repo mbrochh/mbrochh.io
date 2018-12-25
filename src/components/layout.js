@@ -7,6 +7,7 @@ import { Global, jsx } from '@emotion/core'
 import { rhythm } from '../utils/typography.js'
 import Centered from './centered.js'
 import Header from './header.js'
+import Footer from './footer.js'
 
 const linkColor = '#1F5B77'
 const headingColor = '#4A4A4A'
@@ -51,6 +52,8 @@ const Layout = props => (
           ) : (
             props.children
           )}
+          <hr css={{ marginTop: rhythm(1) }} />
+          <Footer />
         </div>
       </React.Fragment>
     )}

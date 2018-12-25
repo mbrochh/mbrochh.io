@@ -1,11 +1,10 @@
 /** @jsx jsx */
 import { Link } from 'gatsby'
 import { jsx } from '@emotion/core'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { rhythm } from '../utils/typography.js'
 
-const Nav = props => {
+const Nav = () => {
   return (
     <nav
       css={{
@@ -17,9 +16,7 @@ const Nav = props => {
     >
       <Link to="/about/">About</Link>
       <Link to="/now/">Now</Link>
-      <OutboundLink href="https://twitter.com/mbrochh">Twitter</OutboundLink>
-      <OutboundLink href="https://github.com/mbrochh">Github</OutboundLink>
-      <OutboundLink href="/rss.xml">RSS</OutboundLink>
+      <Link to="/reviews/">Reviews</Link>
     </nav>
   )
 }
