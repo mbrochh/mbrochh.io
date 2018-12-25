@@ -17,9 +17,9 @@ const AboutPage = () => (
     <p>
       I'm the founder of{' '}
       <OutboundLink href="https://bitlabstudio.com">Bitlab Studio</OutboundLink>
-      . We are a small but well established web agency based in Singapore and
-      Germany. Our core competence is building web applications and mobile
-      applications based on{' '}
+      . We are a small but well established web agency based in Singapore (Pte
+      Ltd) and Germany (GmbH). Our core competence is building web applications
+      and mobile applications based on{' '}
       <OutboundLink href="https://www.djangoproject.com/">Django</OutboundLink>,{' '}
       <OutboundLink href="https://graphql.org/">GraphQL</OutboundLink>,{' '}
       <OutboundLink href="https://reactjs.org/">React</OutboundLink> and{' '}

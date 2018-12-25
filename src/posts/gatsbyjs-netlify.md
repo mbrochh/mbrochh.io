@@ -11,7 +11,7 @@ getting quite a lot of buzz recently. If you love to work with React, and if you
 
 At my company <outbound-link href="https://bitlabstudio.com">Bitlab Studio</outbound-link> we constantly push ourselves to find the best way to build and host secure, fast and reliable web applications for our clients. When I saw how GatsbyJS and netlify took off, almost taking the web-design community by storm, I wanted to see what the hype is all about.
 
-I decided to _just give it five minutes_ and see how far I can get. Approximately 8:35hrs later I had this blog online. I found it to be a really fun exercise, so by putting out this guide, I hope to encourage you to try the same. I would estimate that by just following this guide, you should have your blog online in one or two hours.
+I decided to _just give it five minutes_ and see how far I can get. Approximately 8:35hrs later I had this blog online. I found it to be a really fun exercise, so by putting out this guide, I hope to encourage you to try the same. I would estimate that by just following this guide, you should have your blog online in one or two hours. Of course you will then spend another four to eight hours coming up with beautiful styles for your blog.
 
 We will go through the following steps:
 
@@ -33,32 +33,38 @@ First we should create a new repository on Github. After that, we will initializ
 
 ```bash
 cd ~/Projects
-mkdir testblog
-cd testblog
+mkdir YOURBLOGNAME
+cd YOURBLOGNAME
 npm install -g gatsby-cli
-gatsby new testblog
-cd testblog
+gatsby new YOURBLOGNAME
+cd YOURBLOGNAME
 npm install gatsby-cli --save
 git init
 git add .
 git commit -am "Initial commit"
-git remote add origin git@github.com:USERNAME/testblog.git
+git remote add origin git@github.com:USERNAME/YOURBLOGNAME.git
 git push -u origin master
 gatsby develop
 ```
 
 At this point, we should be able to see our new Gatsby site in our browser
 
+For the rest of this guide, we will be installing many different gatsby-plugins. The process is always similar:
+
+1. Install the plugin via `npm`
+1. Add the plugin settings to `gatsby-config.js`
+1. Maybe add or update some other files
+
 <a name="add-google-analytics"></a>
 
 ## Add Google Analytics
 
-Almost everything in Gatsby can be achieved by installing a gatsby-plugin. So let's install a plugin that loads Google Analytics. This plugin also comes with a nice `<OutboundLink>` component that sends a custom "Outbound Link" event to Google Analytics when people click those links.
+For starters, let's install a plugin that loads Google Analytics. This plugin also comes with a nice `<OutboundLink>` component that sends a custom "Outbound Link" event to Google Analytics when people click those links.
 
 Official docs: <outbound-link href="https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/">gatsby-plugin-google-analytics</outbound-link>
 
 ```bash
-cd ~/Projects/testblog/testblog
+cd ~/Projects/YOURBLOGNAME/YOURBLOGNAME
 npm install --save gatsby-plugin-google-analytics
 ```
 
@@ -92,7 +98,7 @@ I actually never used this before, but it seems that the Gatsby community likes 
 Official docs: <outbound-link href="https://www.gatsbyjs.org/packages/gatsby-plugin-typography/">gatsby-plugin-typography</outbound-link>
 
 ```bash
-cd ~/Projects/testblog/testblog
+cd ~/Projects/YOURBLOGNAME/YOURBLOGNAME
 npm install --save gatsby-plugin-typography react-typography typography
 ```
 
@@ -116,6 +122,7 @@ module.exports = {
 We also need to create the file `src/utils/typography.js`. Here we can chose our base-font-size and base-line-height and also define a bunch of Google fonts that we would like to import in our site:
 
 ```jsx
+// src/utils/typography.js
 import Typography from 'typography'
 
 const typography = new Typography({
@@ -140,7 +147,7 @@ export const rhythm = typography.rhythm
 export const scale = typography.scale
 ```
 
-You can <outbound-link href="http://kyleamathews.github.io/typography.js/what/">learn more about Typography.js here.</outbound-link>
+You can <outbound-link href="http://kyleamathews.github.io/typography.js/what/">learn more about Typography.js here</outbound-link>. As far as I understand it, all font sizes should be return values from the `scale()` function, so that everything is a multiple or fraction of the base font size. Likewise, all paddings and margins should be return values from the `rhythm()` function, which would be multiples or fractions of the base line height.
 
 <a name="add-emotion"></a>
 
@@ -151,7 +158,7 @@ I'm a big fan of "CSS in JS" and it seems that emotion is currently the best lib
 Official docs: <outbound-link href="https://www.gatsbyjs.org/packages/gatsby-plugin-emotion/">gatsby-plugin-emotion</outbound-link>
 
 ```bash
-cd ~/Projects/testblog/testblog
+cd ~/Projects/YOURBLOGNAME/YOURBLOGNAME
 npm install --save gatsby-plugin-emotion @emotion/core @emotion/styled
 ```
 
@@ -198,6 +205,7 @@ Now we get to the meaty parts. In order to have a blog where the content comes f
 - <outbound-link href="https://www.gatsbyjs.org/packages/gatsby-remark-component/">gatsby-remark-component</outbound-link> allows us to use React components in Markdown. This is especially useful so that we can use the `<OutboundLink>` component that comes with the Google Analytics plugin.
 
 ```bash
+cd ~/Projects/YOURBLOGNAME/YOURBLOGNAME
 npm install --save gatsby-source-filesystem
 npm install --save gatsby-transformer-remark
 npm install --save gatsby-remark-images gatsby-plugin-sharp
@@ -255,13 +263,10 @@ We need to do more! Add this one line to `gatsby-browser.js`. This loads the the
 require('prismjs/themes/prism-okaidia.css')
 ```
 
-Next we have to perform a bit of black magic. As far as I understand it, we can define a `createPages` function in `gatsby-node.js`. When Gatbsy tries to render all static pages, it will call this function. The function will query a GraphQL endpoint which was magically provided by the gatsby-transformer-remark plugin and call the `createPage` action for each item in the queryset.
-
-If we ever want to change which files will be rendered (i.e. exclude posts that you have marked as drafts), we would have to change the query here.
-
-Finally, it is in this file where we define which template should be used to render a blog post (`src/templates/blogPost.js`).
+Next we have to perform a bit of black magic. Add this code to `gatsby-node.js`:
 
 ```javascript
+// gatsby-node.js
 const path = require('path')
 
 exports.createPages = ({ actions, graphql }) => {
@@ -300,9 +305,16 @@ exports.createPages = ({ actions, graphql }) => {
 }
 ```
 
+As far as I understand it, we can define a `createPages` function. When Gatbsy tries to render all static pages, it will call this function. The function will query a GraphQL endpoint which was magically provided by the gatsby-transformer-remark plugin and call the `createPage` action for each item in the queryset.
+
+If we ever want to change which files will be rendered (i.e. exclude posts that you have marked as drafts), we would have to change the query here.
+
+Finally, it is in this file where we define which template should be used to render a blog post (`src/templates/blogPost.js`).
+
 Since we just referenced the file `src/templates/blogPost.js`, let's create that file:
 
 ```jsx
+// src/templates/blogPost.js
 /** @jsx jsx */
 import React from 'react'
 import rehypeReact from 'rehype-react'
@@ -359,21 +371,27 @@ export const pageQuery = graphql`
 `
 ```
 
-Now it's time to add a Markdown file and make sure that we are able to see it in the browser. Create a file `src/posts/hello-world.md`. The things at the top of the file are called "frontmatter". You can come up with any keys and values here and you will be able to query these fields in your GraphQL queries. I like to add a key `type` to all my posts so that I can later have one page with "blog" post and one page with "book" reviews and one page with "boardgame" reviews and so on. All pages will be found in the `src/posts/` folder.
+Now it's time to add a Markdown file and make sure that we are able to see it in the browser. Create a file `src/posts/hello-world.md`:
 
 ```markdown
+# src/posts/hello-world.md
+
 ---
+
 type: 'blog'
 path: '/hello-world/'
 date: '2018-12-24'
 title: 'Hello World'
 description: 'Just a test post.'
+
 ---
 
 Hello world! Merry Christmas, everyone!
 ```
 
-The last piece in the puzzle is to update our `index.js` file and make sure that it displays a list of all published blog posts:
+The things at the top of the file are called "frontmatter". You can come up with any keys and values here and you will be able to query these fields in your GraphQL queries. I like to add a key `type` to all my posts so that I can later create different posts for different pages, i.e. post for my blog, post for book reviews and posts for boardgame reviews. All files will be found in the `src/posts` folder, but I will be able to create different GraphQL queries and filter by the `type` value.
+
+he last piece in the puzzle is to update our `index.js` file and make sure that it displays a list of all published blog posts:
 
 ```jsx
 // replace index.js content this this:
@@ -411,6 +429,8 @@ export default function IndexPage(props) {
   )
 }
 
+// here we can see how to filter by the `type` value which is part of the
+// frontmatter in our markdown files
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
@@ -513,6 +533,6 @@ Once that change has propagated, you will also be able to activate HTTPs via the
 
 ---
 
-Thank you for reading this post. I hope it proved to be useful for you. If you would like to buy me a Chai tea, you can send a few satoshis to my BTC address: 3Q6dfwHh594vkNs2HqXk9YsqBSFK4VzuJ5
+Thank you for reading this post. I hope it proved to be useful for you. If you would like to buy me a Chai tea latte, you can send a few satoshis to my BTC address: 3Q6dfwHh594vkNs2HqXk9YsqBSFK4VzuJ5
 
 If this post motivated you to build your own blog, please feel free to post a link to your blog in the comments!
