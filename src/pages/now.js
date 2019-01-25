@@ -20,17 +20,17 @@ const NowPage = () => (
       , too.)
     </p>
     <p>
-      Right now, I'm figuring out the bells and whistles of{' '}
-      <OutboundLink href="https://www.gatsbyjs.org/">GatsbyJS</OutboundLink>.
-      Once I have cracked that nut, I have a lot of ideas for content to publish
-      on this domain.
+      Here are the projects that occupy my mind at the moment:
     </p>
-    <p>Next up:</p>
     <ul>
-      <li>Setup Amazon payment links and books page</li>
+      <li>Reading: The Sovereign Individual</li>
+      <li>Voluntering: Finding speakers for the <OutboundLink href="https://www.meetup.com/Singapore-Python-User-Group/">Python User Group meetups</OutboundLink> for the months of May, June and July</li>
+      <li>Volunteering: Auditing the Python User Group accounts, doing the AGM, then recruiting a new team for PyCon Singapore 2019</li>
+      <li>Work: Migrate the codebase of Luxglove.com to the latest and greatest Django & React & ReactNative</li>
+      <li>Teaching: Create an awesome 10weeks Python course for General Assembly, starting end of March</li>
     </ul>
     <p>
-      <i>Updated December 22st, 2018, from Leverkusen, Germany.</i>
+      <i>Updated 25 January, 2018, from Singapore.</i>
     </p>
   </Layout>
 )
