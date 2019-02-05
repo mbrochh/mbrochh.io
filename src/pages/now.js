@@ -24,6 +24,7 @@ const NowPage = () => (
     </p>
     <ul>
       <li>Reading: Thinking Fast and Slow</li>
+      <li>Preparing my next book review about Atomic Habits</li>
       <li>Voluntering: Train the new Python User Group moderators</li>
       <li>Volunteering: Auditing the Python User Group accounts, doing the AGM, then recruiting a new team for PyCon Singapore 2019</li>
       <li>Work: Migrate the codebase of Luxglove.com to the latest and greatest Django & React & ReactNative</li>
