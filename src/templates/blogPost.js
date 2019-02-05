@@ -6,6 +6,7 @@ import { jsx } from '@emotion/core'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { DiscussionEmbed } from 'disqus-react'
 
+import Nav from '../components/nav.js'
 import Layout from '../components/layout.js'
 import SEO from '../components/seo.js'
 
@@ -31,6 +32,7 @@ export default function Template({
   return (
     <Layout>
       <SEO title={frontmatter.title} description={frontmatter.description} />
+      <Nav />
       <h1 css={{ marginBottom: '0px' }}>{frontmatter.title}</h1>
       <p>
         <small>
@@ -61,8 +63,9 @@ export const pageQuery = graphql`
       timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        title
         description
+        title
+        type
       }
     }
   }
