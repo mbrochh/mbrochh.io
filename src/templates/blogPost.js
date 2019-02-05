@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from 'react'
 import rehypeReact from 'rehype-react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import { jsx } from '@emotion/core'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { DiscussionEmbed } from 'disqus-react'
@@ -42,6 +42,11 @@ export default function Template({
         </small>
       </p>
       {renderAst(htmlAst)}
+      {frontmatter.type === 'book' &&
+        <p>
+          <Link to="/reviews/">back to Reviews</Link>
+        </p>
+      }
       <hr />
       <DiscussionEmbed {...disqusProps} />
     </Layout>

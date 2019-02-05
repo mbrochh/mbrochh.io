@@ -20,6 +20,8 @@ In case you are concerned: the book covers almost zero religious things, it does
 
 In the many years since I discovered this book, I have often dropped the habit due to tight deadlines at work, stress, or simply other hobbies. Every year I eventually came back to this book and added meditation back into my daily routine. Every time when I did this, I could feel the positive effects of meditation after just three or four days.
 
-You will not become an enlightened saint by reading this book. That would take decades of training and probably some guidance from actual meditation masters. But you will become a calmer and mentally more resillient person almost over night and you will probably learn a lot about yourself and the human condition.
+You will not become an enlightened saint by reading this book. That would take decades of training and probably some guidance from actual meditation masters. But you will become a calmer and mentally more resillient person almost over night and you will learn a lot about yourself and the human condition.
 
 Please give it a try!
+
+<a target="_blank" href="https://www.amazon.com/gp/product/0861719069/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0861719069&linkCode=as2&tag=mbrochh-20&linkId=0cfd0a58e792b39c42a124e6edf814c8">Amazon affiliate link: Mindfulness in Plain English</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=mbrochh-20&l=am2&o=1&a=0861719069" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
