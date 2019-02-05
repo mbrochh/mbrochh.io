@@ -74,7 +74,7 @@ const AboutPage = () => (
       We are currently witnessing the transformation of our society from the
       industrial age into the information age. Crypto currencies play a major
       role in this process and will change virtually every aspect of life within
-      the next 10 years or so, just like the internet did in the past 10 years.
+      the next 20 years or so, just like the internet did in the past 20 years.
       I have spent thousands of hours reading everything about Bitcoin there is
       to read and if time allows, I will become a bit more active in the space
       in 2019.
