@@ -41,7 +41,7 @@ export const pageQuery = graphql`
   query ReviewsQuery {
     allMarkdownRemark(
       filter: { frontmatter: { type: { eq: "book" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: DESC, fields: [frontmatter___rating] }
     ) {
       edges {
         node {

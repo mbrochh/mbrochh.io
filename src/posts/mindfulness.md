@@ -4,8 +4,7 @@ path: '/mindfulness/'
 date: '2018-12-21'
 title: 'Mindfulness In Plain English by Bhante Gunaratana'
 description: 'My review about an amazing introduction to mindfulness meditation.'
-eisbn: '978-0-861-71999-0'
-rating: 10
+rating: 100
 ---
 
 <a target="_blank"  href="https://www.amazon.com/gp/product/0861719069/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0861719069&linkCode=as2&tag=mbrochh-20&linkId=2606d3fa1267814bf6deb439be9c6a38"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0861719069&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=mbrochh-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=mbrochh-20&l=am2&o=1&a=0861719069" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
