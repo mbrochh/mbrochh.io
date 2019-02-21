@@ -20,7 +20,8 @@ export default function ReviewsPage(props) {
       <p>
         The amount of knowledge out there is basically unlimited, but our time
         on earth is not. On this page, I will list books that in my opinion
-        should be worth your time.
+        should be worth your time. The list is roughly sorted by how valuable
+        I deemed these books to my life - of course your mileage may vary.
       </p>
       {posts.length > 0 && <h1 css={{ ...scale(1 / 4) }}>Books</h1>}
       {posts
