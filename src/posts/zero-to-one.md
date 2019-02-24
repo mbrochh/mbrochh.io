@@ -1,6 +1,6 @@
 ---
 type: 'book'
-rating: '98'
+rating: '97'
 path: '/zero-to-one/'
 date: '2019-02-21'
 title: 'Zero To One by Peter Thiel'
