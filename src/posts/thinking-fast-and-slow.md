@@ -2,7 +2,7 @@
 type: 'book'
 rating: '99'
 path: '/thinking-fast-and-slow/'
-date: '2019-02-22'
+date: '2019-02-24'
 title: 'Thinking Fast And Slow by Daniel Kahneman'
 description: 'My review of the Kindle book Thinking Fast And Slow by Daniel Kahneman.'
 ---
