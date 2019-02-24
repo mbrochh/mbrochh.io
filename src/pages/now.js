@@ -23,15 +23,13 @@ const NowPage = () => (
       Here are the projects that occupy my mind at the moment:
     </p>
     <ul>
-      <li>Reading: Thinking Fast and Slow</li>
-      <li>Preparing my next book review about Atomic Habits</li>
-      <li>Voluntering: Train the new Python User Group moderators</li>
-      <li>Volunteering: Auditing the Python User Group accounts, doing the AGM, then recruiting a new team for PyCon Singapore 2019</li>
+      <li>Reading: Deep Work</li>
+      <li>Volunteering: Kickstarting the planning for PyCon 2019</li>
       <li>Work: Migrate the codebase of Luxglove.com to the latest and greatest Django & React & ReactNative</li>
       <li>Teaching: Create an awesome 10weeks Python course for General Assembly, starting end of March</li>
     </ul>
     <p>
-      <i>Updated February 5, 2019, from Singapore.</i>
+      <i>Updated February 24, 2019, from Singapore.</i>
     </p>
   </Layout>
 )
