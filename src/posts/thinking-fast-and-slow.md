@@ -1,6 +1,6 @@
 ---
 type: 'book'
-rating: '99'
+rating: 99
 path: '/thinking-fast-and-slow/'
 date: '2019-02-24'
 title: 'Thinking Fast And Slow by Daniel Kahneman'

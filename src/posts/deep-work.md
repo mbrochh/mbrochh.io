@@ -1,6 +1,6 @@
 ---
 type: 'book'
-rating: '97'
+rating: 97
 path: '/deep-work/'
 date: '2019-03-03'
 title: 'Deep Work by Cal Newport'

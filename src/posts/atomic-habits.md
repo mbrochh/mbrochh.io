@@ -1,6 +1,6 @@
 ---
 type: 'book'
-rating: '98'
+rating: 98
 path: '/atomic-habits/'
 date: '2018-12-25'
 title: 'Atomic Habits by James Clear'
