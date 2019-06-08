@@ -3,7 +3,7 @@ type: 'blog'
 path: '/book-club/'
 date: '2019-05-26'
 title: 'The Startup Book Club'
-description: 'I read 19 books this year. Here is how.'
+description: 'I read 21 books this year. Here is how.'
 ---
 
 I have read 21 books this year. A lot of people asked me why and how, so here it is.
