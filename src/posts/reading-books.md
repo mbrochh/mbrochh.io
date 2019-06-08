@@ -6,7 +6,7 @@ title: 'On Reading Books'
 description: 'I read 19 books this year. Here is what I have learned.'
 ---
 
-I have read 19 books this year. A lot of people asked me why and how, so here it is.
+I have read 21 books this year. A lot of people asked me why and how, so here it is.
 
 # Goodreads Reading Challenge
 
@@ -18,7 +18,7 @@ There is one problem with this: After a few books, I often run out of ideas on w
 
 To fix that problem, I joined "The Startup Book Club" this year. The club suggest one new book every two weeks, so I don't have to worry about choosing good books. So far, out of the 11 books that we read, I rated 9 or so highly and I got tons of ideas for other related books to read.
 
-Getting tons of great book suggestions is an obvious benefit of being part of a book club. There are lots of other great benefits:
+Getting a lot of great book suggestions is an obvious benefit of being part of a book club. There are many other benefits:
 
 1. I have a desire to join the discussion of the book. This keeps me on the edge and makes sure that I really read every single day. You can of course join the discussion many weeks later, but the chances to get meaningful replies will be much lower because everyone is busy reading the current book.
 
@@ -26,7 +26,7 @@ Getting tons of great book suggestions is an obvious benefit of being part of a 
 
 3. Sometimes, the discussion threads of the books contain great nuggets of additional links and information, either confirming the book's thesis or pointing out flaws that I would otherwise not have been aware of. 
 
-4. Sometimes I thought I didn't like a book but reading another club member's positive take on it changes my opinion a bit and leaves me happier.
+4. Sometimes I thought I didn't like a book but reading another club member's positive take on it changes my opinion a bit and leaves me happier. There is always someone who finds something positive in a book.
 
 5. Since I am now part of a community, I made a few new social connections. I found some great people to follow on Twitter and Goodreads, whose interests align very much with my own. Seeing what other books these people like and rate on Goodreads gives me lots of great ideas for more books to read for myself (outside of the book club).
 
@@ -38,17 +38,18 @@ Getting tons of great book suggestions is an obvious benefit of being part of a 
 
 # On Taking Notes
 
-As mentioned above, I have started taking notes on most of the books that I read. I read my books on my Kindle because I like the distraciton-free environment (no notifications, ever) and the crisp font. I underline all key information while I read a chapter. At the end of the chapter, I pick up my phone, sync between the Kindle and the iOS Kindle app and open my underlined passages in the iOS Kindle app. Then I scroll through the underlined passages, this is like speed-reading the chapter all over again. Then open a notes taking app on my phone and distill the underlined passages into a few notes that contain the key information of the chapter. The nice thing is that I have the iOS Kindle app open and the notes taking app, so I can jump between both apps quickly while writing my notes.
+As mentioned above, I have started taking notes on most of the books that I read. I read my books on my Kindle because I like the distraciton-free environment (no notifications, ever) and the crisp (and large) font. I underline all key information while I read a chapter. At the end of the chapter, I pick up my phone, sync between the Kindle and the iOS Kindle app and open my underlined passages in the iOS Kindle app. Then I scroll through the underlined passages, this is like speed-reading the chapter all over again. Now I open a notes taking app on my phone and distill the underlined passages into a few notes that contain the key information of the chapter. The nice thing is that I have the iOS Kindle app open and the notes taking app, so I can jump between both apps quickly while writing my notes.
 
 So the flow of information is like this:
 
 1. Read one chapter, underline key passages
-2. Read only the underlined passages
-3. Distill the underlined passages into a few bullet points, ideally in my own words
+1. Sync between Kindle and iOS Kindle app
+1. on iOS: Read only the underlined passages
+1. on iOS: Distill the underlined passages into a few bullet points, ideally in my own words
 
 Sometimes, chapters already contain nice lists with bullet-points, then I just copy and paste the original content into my notes app.
 
-Writing notes has been a significant positive force for me this year. I usually forget the contents of any book pretty quickly after finishing the book. Ask me anything about the book two months later, and I can only very broadly sumrise what the book is about, but can't really recall any details that would help me to apply the knowledge from the book in a real-world situation.
+Writing notes has been a significant positive force for me this year. I usually forget the contents of any book pretty quickly after finishing the book. Ask me anything about the book two months later, and I can only very broadly sumrise what the book is about, but I can't really recall any details that would help me to apply the knowledge from the book in a real-world situation.
 
 Now I am able to remember the contents of a book for a longer period (I can still vividly remember many of the lessons from Atomic Habits, the first book that we read five months ago) and even better, when I am in a conversation and I want to get accross a point about something that I have learned from one of my books, I can quickly open my notes, skim them, and then better articulate my point.
 
