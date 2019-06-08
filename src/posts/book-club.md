@@ -2,21 +2,44 @@
 type: 'blog'
 path: '/book-club/'
 date: '2019-05-26'
-title: 'On Reading Books'
-description: 'I read 19 books this year. Here is what I have learned.'
+title: 'The Startup Book Club'
+description: 'I read 19 books this year. Here is how.'
 ---
 
 I have read 21 books this year. A lot of people asked me why and how, so here it is.
 
-# Goodreads Reading Challenge
+# Why?
+
+I have reached a point in my career where it is very hard to extract more knowledge out of social media. There was a time when I woke up in the morning
+and opened Google Reader and I soaked up one blog post after the other and learned new stuff about Linux, HTML, CSS, JavaScript, Python, NGINX, uWSGI,
+Postgres, AWS, and so on. These times are gone. Also, Google Reader is dead and as a result people don't blog that much any more. Furthermore, social
+media has become infested with political turf wars and it is becoming increasingly difficult to keep the signal to noise ratio at acceptable levels.
+
+My responsibilities are now much greater than just being a good coder. That means, I need to learn new tricks. Since I can't seem to do that any more
+on social media without poisoning my brain, I have to revert to what has worked for humans for hundreds of years: read books.
+
+I can highly highly recommend this. It feels like being in school again, but this time you chose the topics and the teachers and you really want to be
+there. It is super motivating and it made me a happier person.
+
+So how do I motivate myself to keep reading so much?
+
+# When: I read on the commute
+
+This is a big disclaimer: I mostly read on my daily commute on the MRT. I have about 30 minutes in the morning and in the evening and I used to waste
+them on social media, getting anxcious about bullshit that Donald Trump did while I was sleeping. Now I stand there with my Kindle and read books
+and take notes. If you have a busy job but you have to drive a car to get there, I'm afraid I have no good tips for you. Most people would say to listen
+to audiobooks but I have personally never done that, so I can't really recommend that. I strongly believe that we need to see text with our eyes and
+ideally write notes with our hands in order to retain information, so audiobooks don't seem appealing to me.
+
+# Gamification: Goodreads Reading Challenge
 
 Every year on January first, I commit to a reading challenge on Goodreads. I usually commit to 12 books a year, and I usually don't complete the challenge (the curse of all new year's resolutions). However, having that little progress bar creeping towards completion is a first little motivator that helps me to stay somewhat on track. In the beginning of the year the bar tells me "better start reading, it's a long way to go", near the end of the year the bar tells me "don't give up now, if you squeeze in four more books, you made it".
 
 There is one problem with this: After a few books, I often run out of ideas on what to read next and the research for the next good book becomes almost as time consuming as reading the book itself.
 
-# The Startup Book Club
+# Community: The Startup Book Club
 
-To fix that problem, I joined "The Startup Book Club" this year. The club suggest one new book every two weeks, so I don't have to worry about choosing good books. So far, out of the 11 books that we read, I rated 9 or so highly and I got tons of ideas for other related books to read.
+To fix that problem, I joined "[The Startup Book Club](https://discourse.thestartupbook.club/)" this year. The club suggest one new book every two weeks, so I don't have to worry about choosing good books. So far, out of the 11 books that we read, I rated 9 or so highly and I got tons of ideas for other related books to read.
 
 Getting a lot of great book suggestions is an obvious benefit of being part of a book club. There are many other benefits:
 
@@ -36,7 +59,7 @@ Getting a lot of great book suggestions is an obvious benefit of being part of a
 
 8. A great, subtle, quality of life improvement: The time I need to invest into finishing all those books eats into the time I would usually waste on social media. As a result, I have basically stopped reading social media and feel much happier and less anxious. Books are like a virtual nicotin-plaster to ween off information addicts like me.
 
-# On Taking Notes
+# Technique: Taking Notes
 
 As mentioned above, I have started taking notes on most of the books that I read. I read my books on my Kindle because I like the distraciton-free environment (no notifications, ever) and the crisp (and large) font. I underline all key information while I read a chapter. At the end of the chapter, I pick up my phone, sync between the Kindle and the iOS Kindle app and open my underlined passages in the iOS Kindle app. Then I scroll through the underlined passages, this is like speed-reading the chapter all over again. Now I open a notes taking app on my phone and distill the underlined passages into a few notes that contain the key information of the chapter. The nice thing is that I have the iOS Kindle app open and the notes taking app, so I can jump between both apps quickly while writing my notes.
 
